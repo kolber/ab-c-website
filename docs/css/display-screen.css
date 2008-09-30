@@ -1,0 +1,95 @@
+body {
+	background: #231F20;
+	color: #E6FFFF;
+	font-family: "Helvetica Neue", "Helvetica", helvetica, arial, tahoma, sans-serif;
+	text-align: center;
+	font-size: 62.5%;
+}
+
+/*
+
+	General styles
+
+*/
+
+h1,
+h2,
+h3 {
+	font-size: 5.4em;
+	line-height: 1.3;
+	font-weight: lighter;
+	margin: 0em;
+	padding: 0em;
+}
+
+h2:before,
+h3:before {
+	content: '—';
+	margin: 0em 0em 0em -1em;
+}
+
+h2,
+h3 {
+	margin: 0em 0em 0.2em;
+}
+
+h3 em {
+	background-color: #FF0047;
+}
+
+em {
+	font-style: normal;
+	background-color: #E6FFFF;
+	color: #231F20;
+	padding: 0em 0.1em;
+}
+
+a {
+	background-color: #FF0047;
+	color: #231F20;
+	text-decoration: none;
+	padding: 0em 0.1em;
+}
+
+a:hover {
+	background-color: #E6FFFF;
+}
+
+
+
+div#container {
+	width: 78em;
+	margin: 2em auto;
+	text-align: left;
+	position: relative;
+}
+
+/*
+
+Javascript-referenced-only styles
+
+*/
+
+em span {
+	position: absolute;
+	height: 0;
+	/* IEs Hack */
+	*height: auto;
+}
+
+em span.always-hide {
+	position: static;
+	visibility: hidden;
+}
+
+em span a {
+	background-color: transparent;
+}
+
+em span.always-hide a {
+	background-color: #FF0047;
+}
+
+h3 em span a:hover {
+	background-color: transparent;
+}
