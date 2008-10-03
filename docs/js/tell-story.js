@@ -36,7 +36,7 @@ var animateVerbs = function(emHolder) {
 	}
 }
 
-$(function() {
+$(document).ready(function() {
 	// for each em
 	$("em").each(function(i) {
 		var newHTML = "";
