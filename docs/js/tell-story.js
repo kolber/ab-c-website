@@ -37,7 +37,7 @@ var animateVerbs = function(emHolder) {
 }
 
 $(document).ready(function() {
-	$("div#container").css('visibility', 'visible');
+	$("div#container").css('display', 'block');
 	// for each em
 	$("em").each(function(i) {
 		var newHTML = "";
