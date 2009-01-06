@@ -63,8 +63,8 @@ $(document).ready(function() {
 	});
 	
 	$("h3 a").hover(function() {
-		$(this).parent().parent().css("background-color", "#E6FFFF");
+		$(this).parent().parent().css("background-color", "#ee9298");
 	}, function() {
-		$(this).parent().parent().css("background-color", "#FF0047");
+		$(this).parent().parent().css("background-color", "transparent");
 	})
 });
