@@ -30,9 +30,9 @@ var animateVerbs = function(emHolder) {
 		}, 1100);
 	} else {
 		// hide currently visible item
-		$("span:visible", emHolder).fadeOut(1100)
+		$("span:visible", emHolder).fadeOut(1100);
 		// show randomly selected span
-		$(randomSpan).fadeIn(1100)
+		$(randomSpan).fadeIn(1100);
 	}
 }
 

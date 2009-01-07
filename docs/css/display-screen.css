@@ -1,9 +1,16 @@
+@font-face {
+	font-family: "FreightSans Book";
+	src: url(/docs/css/FREIGHT0.eot);
+}
+
 body {
 	background: #D3D5C8;
 	color: #fff;
-	font-family: "FreightSans Medium", "FreightSans", "Helvetica Neue", "Helvetica", helvetica, arial, tahoma, sans-serif;
+	font-family: "FreightSans Book", "FreightSans" "Helvetica Neue", "Helvetica", helvetica, arial, tahoma, sans-serif;
 	text-align: center;
+	font-weight: 300;
 	letter-spacing: 0.1em;
+	*letter-spacing: 0em;
 	font-size: 62.5%;
 }
 
@@ -18,7 +25,7 @@ h2,
 h3 {
 	font-size: 4.4em;
 	line-height: 1.3;
-	font-weight: 200;
+	font-weight: 300;
 	margin: 0em;
 	padding: 0em;
 }
