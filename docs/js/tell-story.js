@@ -21,11 +21,11 @@ var animateVerbs = function(emHolder) {
 		emHolder.startTop = (!emHolder.startTop) ? new Number($("span:last", emHolder).css("top").replace("px", "")) : emHolder.startTop;
 		$("span:visible", emHolder).animate({
 			height: 0,
-			top: emHolder.startTop + 70
+			top: emHolder.startTop + 50
 		}, 1100, function() { $(this).css("display", "none").css("top", $(this).parent()[0].startTop); });
 		// show randomly selected span
 		$(randomSpan).css("display", "inline").animate({
-			height: 70,
+			height: 50,
 			top: emHolder.startTop
 		}, 1100);
 	} else {
