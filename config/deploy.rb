@@ -1,7 +1,7 @@
 set :application, "ab-c"
 set :repository,  "git@github.com:kolber/ab-c-website.git"
 set :scm, "git"
-set :branch, "master"
+set :branch, "bigarel-rip"
 
 set :deploy_via, :copy
 set :deploy_to, "/home/ben/#{application}"
