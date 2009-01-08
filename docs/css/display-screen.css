@@ -1,12 +1,7 @@
-@font-face {
-	font-family: "FreightSans Book";
-	src: url(/docs/css/FREIGHT0.eot);
-}
-
 body {
 	background: #D3D5C8;
 	color: #fff;
-	font-family: "FreightSans Book", "FreightSans" "Helvetica Neue", "Helvetica", helvetica, arial, tahoma, sans-serif;
+	font-family: "FreightSans Book", "FreightSans", "Helvetica Neue", "Helvetica", helvetica, arial, tahoma, sans-serif;
 	text-align: center;
 	font-weight: 300;
 	letter-spacing: 0.1em;
